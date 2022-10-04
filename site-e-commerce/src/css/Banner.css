@@ -1,0 +1,19 @@
+.banner {
+	background-color: rgb(208, 83, 83);
+	padding: 3px;
+	color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
+    -moz-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
+}
+.logo {
+    width: 5%;
+}
+.link {
+    display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+}

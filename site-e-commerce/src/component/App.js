@@ -1,8 +1,10 @@
 import '../css/App.css';
+import Banner from './Banner'
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Banner />
     </div>
   );
 }

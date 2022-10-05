@@ -12,9 +12,21 @@
 .logo {
     width: 5%;
 }
-.azerty {
+/* .azerty {
     display: flex;
 	flex-direction: row;
     justify-content: space-between;
     color: #ffffff;
+} */
+a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+}
+a:hover {
+    color: #bcbcbc;
+}
+h1 {
+    margin-right: 50px;
 }

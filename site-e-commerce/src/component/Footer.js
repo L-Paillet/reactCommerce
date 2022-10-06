@@ -1,11 +1,13 @@
 import "../css/Footer.css";
 import { Link } from "react-router-dom";
-import WWE from "../asset/WWE.png"
+import WWE from "../asset/WWE.png";
+import GIT from "../asset/Octocat.png";
 
 
 function Footer() {
     const numero = "06.12.34.56.78";
-    const site = "https://ecole-ipssi.com";
+    const site = "https://github.com/L-Paillet/reactCommerce";
+    const School = "https://ecole-ipssi.com/";
     return (
         <div className="footer">
             <img src={WWE} className="logoFooter" alt="logo Ipssi"/>
@@ -16,7 +18,7 @@ function Footer() {
                     </h4>
                     <ul className="liste">
                         <li> numéro : {numero}</li>
-                        <li> site officiel: <a href={site}>IPSSI</a></li>
+                        <li> site officiel: <a href={School} target="_blank" rel="noreferrer">IPSSI</a></li>
                     </ul>
                 </div>
                 <div className="cardFooter">
@@ -24,8 +26,8 @@ function Footer() {
                         Notre équipe
                     </h4>
                     <p className="liste">
-                        <li><Link to="/notre-equipe">A propos de nous</Link></li>
-                        <li> site officiel: <a href={site}>IPSSI</a></li>
+                        <li><Link className="linkStyle" to="/notre-equipe">A propos de nous</Link></li>
+                        <li> Github: <a href={site} target="_blank" rel="noreferrer"><img className="logoGit" src={GIT} alt="logo GIT"/></a></li>
                     </p>
                 </div>
                 <div className="cardFooter">
@@ -33,8 +35,7 @@ function Footer() {
                         Nous contactez
                     </h4>
                     <ul className="liste">
-                        <p><Link className="linkFooter" to="/contact">Contact</Link></p>
-                        <li> site officiel: <a href={site}>IPSSI</a></li>
+                        <p><Link className="linkStyle" to="/contact">Contact</Link></p>
                     </ul>
                 </div>
             </div>

@@ -10,10 +10,10 @@
     -moz-box-shadow: -1px -13px 39px -16px rgba(0,0,0,0.6);
 }
 .logoFooter{
-    width: 10%;
+    width: 17%;
     position: absolute;
-    bottom: 18%;
-    left: 8%;
+    bottom: 0;
+    left: 1%;
 }
 .containerCard {
     display: flex;
@@ -21,15 +21,25 @@
     justify-content: center;
 }
 .cardFooter {
-    padding: auto;
     margin: 0 50px;
 }
 .liste{
     list-style: none;
+    padding-left: 0;
 }
 
 span {
     display: flex;
     justify-content: center;
     font-size: 12px;
+}
+.linkStyle {
+    font-size: 16px;
+    margin: 0;
+}
+.logoGit {
+    width: 55px;
+    position: absolute;
+    left: 55%;
+    bottom: 23%;
 }

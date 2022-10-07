@@ -8,9 +8,9 @@ function Banner() {
             <img src={WWE} className="logo" alt="logo Ipssi"/>
             <h1>Wekos Auto</h1>
             <div >
-            <p className="azerty"><Link to="/produit">Produit</Link>
-                <Link to="/notre-equipe">Notre équipe</Link>
-                <Link to="/contact">Contact</Link></p>
+            <p ><Link to="/produit" className="azerty">Produit</Link>
+                <Link to="/notre-equipe" className="azerty">Notre équipe</Link>
+                <Link to="/contact" className="azerty">Contact</Link></p>
             </div>
         </div>
     )

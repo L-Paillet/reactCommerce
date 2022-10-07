@@ -1,5 +1,5 @@
 .banner {
-	background-color: rgb(208, 83, 83);
+	background-color: rgb(223 34 34);
 	padding: 3px;
 	color: #ffffff;
 	display: flex;
@@ -18,7 +18,7 @@
     justify-content: space-between;
     color: #ffffff;
 } */
-a {
+.azerty {
     color: #ffffff;
     font-size: 20px;
     text-decoration: none;

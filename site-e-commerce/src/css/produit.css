@@ -95,3 +95,13 @@
     .textProduit {
         padding: 10px;
     }
+    .styleProduit:hover {
+        text-decoration: underline;
+    }
+    .styleProduit {
+        display: flex;
+        justify-content: end;
+        padding: 10px;
+        color: darkgray;
+        font-size: 14px;
+    }

@@ -13,25 +13,25 @@
   padding: 20px;
 }
 
-    .products {
-        min-width: 100%;
-        height: 180px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    .textProduit {
-        padding: 10px;
-    }
-    .styleProduit:hover {
-        text-decoration: underline;
-    }
-    .styleProduit {
-        display: flex;
-        justify-content: end;
-        padding: 10px;
-        color: darkgray;
-        font-size: 14px;
-    }
+.products {
+    min-width: 100%;
+    height: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.textProduit {
+    padding: 10px;
+}
+.styleProduit:hover {
+    text-decoration: underline;
+}
+.styleProduit {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    color: darkgray;
+    font-size: 14px;
+}
 .div1 {
   grid-area: 1 / 1 / 2 / 2;
   background-color: white;

@@ -10,14 +10,14 @@ import Team from "./our-team/Team";
 import Accueil from "./accueil/Accueil";
 
 function App() {
-  const produits =[
-    {
-      id : 1,
-      nom: "Organisateur attachable",
-      img: organizer,
-      desc: "Organisé votre bordel avec cet organisateur multi-poche!"
-    },
-  ]
+  // const produits =[
+  //   {
+  //     id : 1,
+  //     nom: "Organisateur attachable",
+  //     img: organizer,
+  //     desc: "Organisé votre bordel avec cet organisateur multi-poche!"
+  //   },
+  // ]
   return (
     <div>
       <Banner />

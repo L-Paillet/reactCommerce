@@ -14,7 +14,7 @@ function Produit(props) {
     return (
         <div className="bodyProduit">
             <div class="parent">
-                { props.param.map((produit)=>(
+                {/* { props.param.map((produit)=>(
                     <div class="div1">
                       <img href={organisateur} target="_blank" rel="noreferrer" className="products" src={produit.img} alt="img produit"/>
                       <div className="textProduit">
@@ -27,7 +27,7 @@ function Produit(props) {
                   </div>
                 ))
         
-                }
+                } */}
               
 
                 <div class="div2">

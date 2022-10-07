@@ -1,97 +1,97 @@
 .bodyProduit {
-    background-color: rgb(237, 234, 234);
-    height: 100%;
-    width: 100%;
-    margin-bottom: 185px;
+  background-color: rgb(237, 234, 234);
+  height: 100%;
+  width: 100%;
+  margin-bottom: 185px;
 }
 .parent {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    padding: 20px;
-    }
-    
-    .div1 { 
-        grid-area: 1 / 1 / 2 / 2;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -webkit-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -moz-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        width: 260px;
-    }
-    .div2 { 
-        grid-area: 1 / 2 / 2 / 3; 
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -webkit-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -moz-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        width: 260px;
-    }
-    .div3 { 
-        grid-area: 1 / 3 / 2 / 4; 
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -webkit-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -moz-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        width: 260px;
-    }
-    .div4 { 
-        grid-area: 2 / 1 / 3 / 2; 
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -webkit-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -moz-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        width: 260px;
-    }
-    .div5 { 
-        grid-area: 2 / 2 / 3 / 3;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -webkit-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -moz-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        width: 260px; 
-    }
-    .div6 { 
-        grid-area: 2 / 3 / 3 / 4; 
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -webkit-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -moz-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        width: 260px;
-    }
-    .div7 { 
-        grid-area: 1 / 4 / 2 / 5; 
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -webkit-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -moz-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        width: 260px;
-    }
-    .div8 { 
-        grid-area: 2 / 4 / 3 / 5; 
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -webkit-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        -moz-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-        width: 260px;
-    }
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  padding: 20px;
+}
 
-    .products {
-        min-width: 100%;
-        height: 180px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    .textProduit {
-        padding: 10px;
-    }
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  width: 260px;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  width: 260px;
+}
+.div3 {
+  grid-area: 1 / 3 / 2 / 4;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  width: 260px;
+}
+.div4 {
+  grid-area: 2 / 1 / 3 / 2;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  width: 260px;
+}
+.div5 {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  width: 260px;
+}
+.div6 {
+  grid-area: 2 / 3 / 3 / 4;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  width: 260px;
+}
+.div7 {
+  grid-area: 1 / 4 / 2 / 5;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  width: 260px;
+}
+.div8 {
+  grid-area: 2 / 4 / 3 / 5;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 1px 11px 30px -10px rgba(0, 0, 0, 0.59);
+  width: 260px;
+}
+
+.products {
+  min-width: 100%;
+  height: 180px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.textProduit {
+  padding: 10px;
+}

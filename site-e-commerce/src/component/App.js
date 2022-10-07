@@ -2,11 +2,12 @@ import { Route, Routes } from 'react-router-dom';
 import '../css/App.css';
 import organizer from "../asset/BackseatOrganizer.jpg";
 
-import Banner from './Banner'
-import Contact from './contact/Contact';
-import Footer from './Footer'
-import Produit from './produit/Produit';
-import Team from './our-team/Team';
+import Banner from "./Banner";
+import Contact from "./contact/Contact";
+import Footer from "./Footer";
+import Produit from "./produit/Produit";
+import Team from "./our-team/Team";
+import Accueil from "./accueil/Accueil";
 
 function App() {
   const produits =[
@@ -20,11 +21,12 @@ function App() {
   return (
     <div>
       <Banner />
-        <Routes>
-          <Route path="/contact" element={<Contact/>}></Route>
-          <Route path="/produit" element={<Produit param={produits}/>}></Route>
-          <Route path="/notre-equipe" element={<Team/>}></Route>
-        </Routes>
+      <Routes>
+        <Route path="/" element={<Accueil />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/produit" element={<Produit />}></Route>
+        <Route path="/notre-equipe" element={<Team />}></Route>
+      </Routes>
       <Footer />
     </div>
   );

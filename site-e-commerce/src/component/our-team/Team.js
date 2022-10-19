@@ -2,8 +2,13 @@ import "../../css/Team.css";
 
 function Team() {
     return (
-        <div>
-            <h1>Page Team test</h1>
+        <div className="container">
+            <div className="teamUn">
+                <p>Titre</p>
+            </div>
+            <div className="teamDeux">
+                <p>Titre2</p>
+            </div>
         </div>
     )
 }

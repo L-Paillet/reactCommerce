@@ -1,7 +1,7 @@
 import "../css/Footer.css";
 import { Link } from "react-router-dom";
-import WWE from "../asset/WWE.png";
-import GIT from "../asset/Octocat.png";
+// import WWE from "../asset/WWE.png";
+// import GIT from "../asset/Octocat.png";
 
 
 function Footer() {
@@ -10,7 +10,7 @@ function Footer() {
     const School = "https://ecole-ipssi.com/";
     return (
         <div className="footer">
-            <img src={WWE} className="logoFooter" alt="logo Ipssi"/>
+            {/* <img src={WWE} className="logoFooter" alt="logo Ipssi"/> */}
             <div className="containerCard">
                 <div className="cardFooter">
                     <h4>
@@ -27,7 +27,9 @@ function Footer() {
                     </h4>
                     <p className="liste">
                         <li><Link className="linkStyle" to="/notre-equipe">A propos de nous</Link></li>
-                        <li> Github: <a href={site} target="_blank" rel="noreferrer"><img className="logoGit" src={GIT} alt="logo GIT"/></a></li>
+                        <li> Github: <a href={site} target="_blank" rel="noreferrer">
+                            {/* <img className="logoGit" src={GIT} alt="logo GIT"/> */}
+                            </a></li>
                     </p>
                 </div>
                 <div className="cardFooter">

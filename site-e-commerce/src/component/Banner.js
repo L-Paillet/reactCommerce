@@ -6,9 +6,7 @@ function Banner() {
   return (
     <div className="banner">
       <img src={WWE} className="logo" alt="logo Ipssi" />
-      <Link>
-        <h1>Wekos Auto</h1>
-      </Link>
+      <Link to="/" className="azerty">Wekos Auto</Link>
       <div>
         <p className="azerty">
           <Link to="/produit" className="azerty">Produit</Link>

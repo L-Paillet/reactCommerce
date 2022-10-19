@@ -1,30 +1,28 @@
 .banner {
-	background-color: rgb(223 34 34);
+	/* background-color: rgb(156 0 0); */
+    background: rgba(255, 255, 255, 0.21);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.1px);
+    -webkit-backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 	padding: 3px;
 	color: #ffffff;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-    box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-    -webkit-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
-    -moz-box-shadow: 1px 11px 30px -10px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 .logo {
     width: 5%;
 }
-/* .azerty {
-    display: flex;
-	flex-direction: row;
-    justify-content: space-between;
-    color: #ffffff;
-} */
 .azerty {
     color: #ffffff;
     font-size: 20px;
-    text-decoration: none;
+    text-decoration: none !important;
     margin: 0 20px 0 20px;
 }
-a:hover {
+.azerty:hover {
     color: #bcbcbc;
 }
 h1 {

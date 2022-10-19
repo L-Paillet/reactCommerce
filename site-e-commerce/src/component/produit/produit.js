@@ -6,6 +6,9 @@ import SkullFreshener from "../../asset/SkullFreshener.jpg";
 import SteeringNaruto from "../../asset/SteeringNaruto.jpg";
 import carMirror from "../../asset/carMirror.webp";
 import SwingingOrnament from "../../asset/SwingingOrnament.jpg";
+import { Link } from "react-router-dom";
+// import Button from 'react-bootstrap/Button';
+// import Modal from 'react-bootstrap/Modal';
 
 function Produit(props) {
     const organisateur = "https://www.amazon.com/Helteko-Backseat-Car-Organizer-Accessories/dp/B07RNZV64Y/ref=sr_1_2?keywords=Car+Rear+Seat+Organizer&qid=1665064769&qu=eyJxc2MiOiI2LjE4IiwicXNhIjoiNS43MCIsInFzcCI6IjQuOTIifQ%3D%3D&sr=8-2"
@@ -13,24 +16,24 @@ function Produit(props) {
     console.log(props.param)
     return (
         <div className="bodyProduit">
-            <div class="parent">
-                {/* { props.param.map((produit)=>(
-                    <div class="div1">
+            <div className="parent">
+                { props.param.map((produit)=>(
+                    <div className="div1">
                       <img href={organisateur} target="_blank" rel="noreferrer" className="products" src={produit.img} alt="img produit"/>
                       <div className="textProduit">
                           <h3>{produit.nom}</h3>
                           <p>{produit.desc}</p>
                       </div>
                       <div className="styleProduit">
-                          <a href={organisateur} target="_blank" rel="noreferrer">Voir Plus</a>
+                          <Link to={"/produit/"+ produit.id}>voir plus</Link>
                       </div>
                   </div>
                 ))
         
-                } */}
+                }
               
 
-                <div class="div2">
+                <div className="div2">
                     <img className="products" src={protector} alt="img produit"/>
                     <div className="textProduit">
                         <h3>Housse protectrice</h3>
@@ -41,7 +44,7 @@ function Produit(props) {
                     </div>
                 </div>
 
-                <div class="div3">
+                <div className="div3">
                     <img className="products" src={cupholder} alt="img produit"/>
                     <div className="textProduit">
                         <h3>Sous-verre</h3>
@@ -52,7 +55,7 @@ function Produit(props) {
                     </div>
                 </div>
 
-                <div class="div4">
+                <div className="div4">
                     <img className="products" src={cushion} alt="img produit"/>
                     <div className="textProduit">
                         <h3>Housse protectrice</h3>
@@ -63,7 +66,7 @@ function Produit(props) {
                     </div>
                 </div>
 
-                <div class="div5">
+                <div className="div5">
                     <img className="products" src={SkullFreshener} alt="img produit"/>
                     <div className="textProduit">
                         <h3>Déodorisant</h3>
@@ -74,7 +77,7 @@ function Produit(props) {
                     </div>
                 </div>
 
-                <div class="div6">
+                <div className="div6">
                     <img className="products" src={SteeringNaruto} alt="img produit"/>
                     <div className="textProduit">
                         <h3>Housse de volant</h3>
@@ -85,7 +88,7 @@ function Produit(props) {
                     </div>
                 </div>
 
-                <div class="div7">
+                <div className="div7">
                     <img className="products" src={carMirror} alt="img produit"/>
                     <div className="textProduit">
                         <h3>Mirroir de rétro</h3>
@@ -96,7 +99,7 @@ function Produit(props) {
                     </div>
                 </div>
 
-                <div class="div8">
+                <div className="div8">
                     <img className="products" src={SwingingOrnament} alt="img produit"/>
                     <div className="textProduit">
                         <h3>Canard</h3>
